@@ -20,4 +20,4 @@ Busco **estágio** para atuar construindo interfaces **limpas, responsivas e pre
 - **App de produtividade (PWA):** **rotina + Pomodoro + Kanban**, com **drag-and-drop** e **persistência**
 
 ## Contato
-Email: [wilamisbrasil.preludio1@gmail.com](mailto:wilamisbrasil.preludio1@gmail.com)
+Email: wilamisbrasil.preludio1@gmail.com
