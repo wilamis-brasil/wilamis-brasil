@@ -9,4 +9,4 @@ Possuo projetos publicados e com deploy disponíveis no GitHub. Dois que reflete
 - Um auditor de perfil que utiliza a API do GitHub para gerar um score e um diagnóstico acionável.
 - Um aplicativo de produtividade (PWA) que inclui rotina, Pomodoro e Kanban (com drag-and-drop e persistência).
 
-Contato: Email](mailto:wilamisbrasil.preludio1@gmail.com)
+Contato: [Email](mailto:wilamisbrasil.preludio1@gmail.com)
