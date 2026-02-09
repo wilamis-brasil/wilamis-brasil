@@ -24,5 +24,5 @@ Estágio ou vaga júnior onde eu possa evoluir com código real: front, back, ba
 FIAP Análise e Desenvolvimento de Sistemas —  Graduação (em andamento)
 
 ### Contato
-- [LinkedIn](https://linkedin.com/in/o-wilamis-brasil/)
+- LinkedIn: [LINK](https://linkedin.com/in/o-wilamis-brasil/)
 - Email: wilamisbrasil.preludio1@gmail.com
