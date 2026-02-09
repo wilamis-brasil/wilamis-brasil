@@ -1,4 +1,4 @@
-<img src="./assets/fiap-banner.svg?44" width="100%" alt="Banner tech" />
+<img src="./assets/fiap-banner.svg" width="100%" alt="Banner tech" />
 
 ### Sobre
 Sou aluno da FIAP, dedicado e disciplinado, construindo base forte para atuar como desenvolvedor Full Stack. Meu foco é aprender do jeito que recrutador valoriza: fundamentos + projetos com qualidade (documentação, testes quando aplicável, e deploy).
