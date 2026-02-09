@@ -1,53 +1,156 @@
-<!-- HEADER (opção A: SVG dinâmico) -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0ea5e9&height=180&section=header&text=Wilamis&fontSize=52&fontColor=ffffff&animation=fadeIn)
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Palette inspired by FIAP magenta + dark tech -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070812"/>
+      <stop offset="0.55" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#070812"/>
+    </linearGradient>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&center=true&vCenter=true&width=520&lines=Aluno+da+FIAP+%7C+Foco+em+Fundamentos;Construindo+projetos+pra+virar+Full+Stack;Disciplina+todo+dia%2C+um+commit+por+vez" alt="Typing SVG" />
-</p>
+    <linearGradient id="neon" x1="-0.2" y1="0" x2="1.2" y2="0">
+      <stop offset="0" stop-color="#F23064" stop-opacity="0.0"/>
+      <stop offset="0.25" stop-color="#F23064" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="0.8" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F23064" stop-opacity="0.0"/>
+      <!-- Best-effort motion (may render static on GitHub) -->
+      <animate attributeName="x1" dur="8s" values="-0.2;0.2;-0.2" repeatCount="indefinite"/>
+      <animate attributeName="x2" dur="8s" values="1.2;1.6;1.2" repeatCount="indefinite"/>
+    </linearGradient>
 
-<p align="center">
-  Programação com base forte, prática constante e projetos que provam evolução.
-</p>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 H 0 V 48" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+      <path d="M 0 24 H 48 M 24 0 V 48" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
 
----
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-### Foco atual
-- Fundamentos de computação + web (HTTP, redes, lógica e estruturas)
-- Projetos pequenos, bem feitos, com README e qualidade
-- Rumo a Full Stack (Front + Back + Banco + Deploy)
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n">
+        <animate attributeName="baseFrequency" dur="6s" values="0.85;0.95;0.85" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 0.14 0" />
+    </filter>
 
-### Stack (em evolução)
-<p>
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-</p>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.00"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.00"/>
+    </linearGradient>
+  </defs>
 
----
+  <!-- Base -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- Neon diagonal band -->
+  <path d="M-60,300 C220,140 450,120 720,40 C930,-20 1100,-10 1260,20 L1260,160 C1090,120 930,150 720,230 C470,330 250,360 -60,360 Z"
+        fill="url(#neon)" opacity="0.9"/>
+
+  <!-- Soft glow blobs -->
+  <g filter="url(#glow)" opacity="0.55">
+    <circle cx="200" cy="90" r="70" fill="#F23064" opacity="0.35"/>
+    <circle cx="930" cy="110" r="90" fill="#7C3AED" opacity="0.28"/>
+    <circle cx="1040" cy="260" r="85" fill="#22D3EE" opacity="0.18"/>
+  </g>
+
+  <!-- Noise overlay -->
+  <rect width="1200" height="360" filter="url(#noise)" opacity="0.35"/>
+
+  <!-- Scanlines -->
+  <g opacity="0.18">
+    <rect x="0" y="0" width="1200" height="360" fill="url(#scan)">
+      <animate attributeName="y" dur="3.5s" values="-180;360" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Particles -->
+  <g opacity="0.9">
+    <circle cx="140" cy="250" r="2" fill="#FFFFFF" opacity="0.35">
+      <animate attributeName="cy" dur="5s" values="250;210;250" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="2.8s" values="0.15;0.55;0.15" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="300" r="1.8" fill="#FFFFFF" opacity="0.25">
+      <animate attributeName="cy" dur="6s" values="300;240;300" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="3.2s" values="0.10;0.45;0.10" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="780" cy="310" r="2.2" fill="#FFFFFF" opacity="0.25">
+      <animate attributeName="cy" dur="5.6s" values="310;260;310" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="2.6s" values="0.12;0.50;0.12" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="70" r="2" fill="#FFFFFF" opacity="0.3">
+      <animate attributeName="cy" dur="6.2s" values="70;110;70" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="3s" values="0.10;0.55;0.10" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Text block -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="70" y="150" font-size="52" font-weight="800" fill="#FFFFFF" letter-spacing="1.5">
+      WILAMIS
+    </text>
+    <text x="70" y="188" font-size="18" font-weight="600" fill="#E5E7EB" opacity="0.95">
+      Aluno FIAP • Full Stack em formação • Projetos práticos e evolução consistente
+    </text>
+    <text x="70" y="224" font-size="14" font-weight="500" fill="#CBD5E1" opacity="0.9">
+      Foco: fundamentos, APIs, banco de dados, testes e deploy
+    </text>
+
+    <!-- Glitch accent (best-effort) -->
+    <text x="70" y="150" font-size="52" font-weight="800" fill="#F23064" opacity="0.10">
+      <animate attributeName="opacity" dur="2.4s" values="0.02;0.14;0.02" repeatCount="indefinite"/>
+      WILAMIS
+    </text>
+    <text x="72" y="152" font-size="52" font-weight="800" fill="#22D3EE" opacity="0.08">
+      <animate attributeName="opacity" dur="3.1s" values="0.01;0.12;0.01" repeatCount="indefinite"/>
+      WILAMIS
+    </text>
+  </g>
+
+  <!-- Corner tag -->
+  <g filter="url(#glow)">
+    <rect x="930" y="275" rx="14" ry="14" width="240" height="48" fill="#0B1020" stroke="#F23064" stroke-opacity="0.65"/>
+    <text x="950" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">
+      Open to estágio/júnior
+    </text>
+  </g>
+</svg>
+
+<img src="./assets/fiap-banner.svg" width="100%" alt="Banner tech" />
+
+### Sobre
+Sou aluno da FIAP, dedicado e disciplinado, construindo base forte para atuar como desenvolvedor Full Stack. Meu foco é aprender do jeito que recrutador valoriza: fundamentos + projetos com qualidade (documentação, testes quando aplicável, e deploy).
+
+### O que eu busco
+Estágio ou vaga júnior onde eu possa evoluir com código real: front, back, banco de dados e boas práticas.
+
+### Competências em desenvolvimento
+- Web: HTML, CSS, JavaScript, HTTP/REST
+- Versionamento: Git/GitHub (workflow, branches, PR)
+- Base: lógica, estruturas, orientação a objetos (quando aplicável)
+- Próximos passos: back-end consistente + banco + deploy + testes
 
 ### Projetos em destaque
-- 🔹 **[NOME_DO_PROJETO_1](LINK_DO_REPO_1)** — 1 linha do que faz + o que você praticou (ex: DOM, API, CRUD, etc.)
-- 🔹 **[NOME_DO_PROJETO_2](LINK_DO_REPO_2)** — 1 linha do que faz + o que você praticou
-- 🔹 **[NOME_DO_PROJETO_3](LINK_DO_REPO_3)** — 1 linha do que faz + o que você praticou
+- **Avaliador de Perfil GitHub (Front + Integração API)** — Analisa perfis do GitHub, gera pontuação técnica e feedback acionável com base em métricas de repositórios e atividade.  
+  Repo: [LINK](https://github.com/wilamis-brasil/avaliador-perfil-github) Stack: HTML / CSS / JavaScript / GitHub REST API
 
----
+- **LifeBlocks (Produtividade Web App)** — Aplicação de produtividade com organização de rotinas, tarefas e foco, interface responsiva e lógica de estado no cliente.  
+  Repo: [LINK](https://github.com/wilamis-brasil/lifeblocks) Stack: HTML / CSS / JavaScript / PWA
 
-### Próximos passos (roadmap curto)
-- Front: responsividade + JS moderno
-- Back: Node/Java + APIs REST
-- Banco: modelagem + SQL
-- Deploy: básico de cloud + CI/CD simples
 
----
-
-### Stats (leve, sem exagero)
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=wilamis-brasil&show_icons=true&hide_title=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wilamis-brasil&layout=compact" />
-
----
+### Formação
+FIAP Análise e Desenvolvimento de Sistemas —  Graduação (em andamento)
 
 ### Contato
 - LinkedIn: SEU_LINK
-- Email: SEU_EMAIL (opcional)
+- Email: wilamisbrasil.preludio1@gmail.com
