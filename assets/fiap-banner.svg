@@ -1,318 +1,305 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360"
-  preserveAspectRatio="xMidYMid meet" role="img" aria-label="Minimal story banner P&B (aesthetic v4)"
-  shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-  <title>Minimal story banner P&amp;B</title>
-  <desc>6 cenas minimalistas em loop: solidão, estudo, julgamento, consistência, FIAP, convite ao desafio.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Minimal story banner (GitHub dark matte, layout-safe)">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#000"/>
-      <stop offset="1" stop-color="#060606"/>
-    </linearGradient>
-
-    <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
-      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000" stop-opacity=".65"/>
-    </radialGradient>
-
-    <!-- grain bem sutil -->
-    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
-      <circle cx="18" cy="26" r="1.2" fill="#fff" opacity=".08"/>
-      <circle cx="44" cy="18" r="1.0" fill="#fff" opacity=".06"/>
-      <circle cx="76" cy="34" r="1.1" fill="#fff" opacity=".07"/>
-      <circle cx="102" cy="22" r="1.0" fill="#fff" opacity=".05"/>
-      <circle cx="26" cy="84" r="1.1" fill="#fff" opacity=".06"/>
-      <circle cx="58" cy="74" r="1.0" fill="#fff" opacity=".05"/>
-      <circle cx="90" cy="92" r="1.2" fill="#fff" opacity=".06"/>
-      <circle cx="108" cy="78" r="1.0" fill="#fff" opacity=".05"/>
-    </pattern>
-
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
     <style>
-      .mono {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-      .bg { fill: url(#bgGrad); }
+      .bg0 { fill: url(#gBg); }
+      .vig { fill: url(#gVig); }
 
-      /* off-white pra ficar mais “caro” que #fff puro */
-      .ink { fill:#f4f4f4; }
-      .t1  { fill:#f4f4f4; font-weight:900; letter-spacing:.2px; }
-      .t2  { fill:#f4f4f4; font-weight:650; opacity:.72; letter-spacing:.15px; }
+      .cap { fill: #010409; opacity: .62; }
+      .capStroke { fill: none; stroke: #e6edf3; stroke-opacity: .10; stroke-width: 2; vector-effect: non-scaling-stroke; }
 
-      .main { fill:none; stroke:#f4f4f4; stroke-opacity:.92; stroke-width:7; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
-      .mid  { fill:none; stroke:#f4f4f4; stroke-opacity:.66; stroke-width:5.5; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
-      .thin { fill:none; stroke:#f4f4f4; stroke-opacity:.44; stroke-width:3.5; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
-      .faint{ fill:none; stroke:#f4f4f4; stroke-opacity:.22; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+      .t1 { fill:#e6edf3; font-weight:900; letter-spacing:.2px; }
+      .t2 { fill:#e6edf3; font-weight:600; opacity:.72; }
 
-      .crowd{ fill:none; stroke:#f4f4f4; stroke-opacity:.28; stroke-width:5.5; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
-      .ground{ fill:none; stroke:#f4f4f4; stroke-opacity:.14; stroke-width:2.5; vector-effect:non-scaling-stroke; }
+      .main { fill:none; stroke:#e6edf3; stroke-opacity:.90; stroke-width:8; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+      .mid  { fill:none; stroke:#e6edf3; stroke-opacity:.62; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+      .thin { fill:none; stroke:#e6edf3; stroke-opacity:.40; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+      .faint{ fill:none; stroke:#e6edf3; stroke-opacity:.18; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
 
-      .dot { fill:#f4f4f4; opacity:.20; }
+      .crowd{ fill:none; stroke:#e6edf3; stroke-opacity:.26; stroke-width:6; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+      .ground{ fill:none; stroke:#e6edf3; stroke-opacity:.13; stroke-width:3; vector-effect:non-scaling-stroke; }
 
-      /* grid/coluna (layout) */
-      .divider { stroke:#f4f4f4; stroke-opacity:.10; stroke-width:2; vector-effect:non-scaling-stroke; }
-      .frame   { fill:none; stroke:#f4f4f4; stroke-opacity:.10; stroke-width:2; vector-effect:non-scaling-stroke; }
+      .dot { fill:#e6edf3; opacity:.18; }
     </style>
 
+    <linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="gVig" cx="50%" cy="45%" r="80%">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".55"/>
+    </radialGradient>
+    <radialGradient id="gBlob" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#e6edf3" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#e6edf3" stop-opacity="0"/>
+    </radialGradient>
+
     <g id="bubble">
-      <rect x="-50" y="-26" width="100" height="44" rx="14" class="thin" opacity=".85"/>
-      <path d="M-10 18 L-2 30 L14 16" class="thin" opacity=".85"/>
-      <circle cx="-16" cy="-4" r="3.6" class="dot"/>
-      <circle cx="0"   cy="-4" r="3.6" class="dot"/>
-      <circle cx="16"  cy="-4" r="3.6" class="dot"/>
+      <rect x="-50" y="-26" width="100" height="44" rx="14" class="thin" opacity=".9"/>
+      <path d="M-8 18 L-2 28 L10 16" class="thin" opacity=".9"/>
+      <circle cx="-16" cy="-4" r="4" class="dot"/>
+      <circle cx="0" cy="-4" r="4" class="dot"/>
+      <circle cx="16" cy="-4" r="4" class="dot"/>
     </g>
 
-    <clipPath id="clipRain"><rect x="0" y="0" width="1200" height="360"/></clipPath>
+    <g id="bubbleSmall" transform="scale(0.86)">
+      <rect x="-50" y="-26" width="100" height="44" rx="14" class="thin" opacity=".9"/>
+      <path d="M-8 18 L-2 28 L10 16" class="thin" opacity=".9"/>
+      <circle cx="-16" cy="-4" r="4" class="dot"/>
+      <circle cx="0" cy="-4" r="4" class="dot"/>
+      <circle cx="16" cy="-4" r="4" class="dot"/>
+    </g>
+
+    <clipPath id="clipAll"><rect x="0" y="0" width="1200" height="360"/></clipPath>
+
+    <linearGradient id="gRainMask" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="0.52" stop-color="#000"/>
+      <stop offset="0.72" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="rainMask">
+      <rect x="0" y="0" width="1200" height="360" fill="#fff"/>
+      <rect x="0" y="0" width="1200" height="170" fill="url(#gRainMask)"/>
+    </mask>
 
     <path id="checkPath" d="M0 10 L14 24 L38 0" class="mid" />
   </defs>
 
-  <!-- fundo -->
-  <rect class="bg" width="1200" height="360"/>
-  <rect width="1200" height="360" fill="url(#grain)" opacity=".10"/>
-  <rect width="1200" height="360" fill="url(#vignette)"/>
+  <rect class="bg0" width="1200" height="360"/>
+  <ellipse cx="980" cy="110" rx="340" ry="210" fill="url(#gBlob)"/>
+  <ellipse cx="280" cy="300" rx="420" ry="240" fill="url(#gBlob)" opacity=".55"/>
+  <rect class="vig" width="1200" height="360"/>
 
-  <!-- moldura + coluna -->
-  <rect x="26" y="22" width="1148" height="316" rx="22" class="frame"/>
-  <path d="M520 40 V320" class="divider"/>
-
-  <!-- baseline -->
-  <path d="M80 296 H1120" class="faint stroke="#f4f4f4" opacity=".7"/>
-
-  <!-- 30s loop, 6 cenas, 5s cada -->
-
-  <!-- ===================== SCENE 1 (0-5s): chuva + você ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;1;1;0;0" keyTimes="0;0.0167;0.15;0.1667;1"/>
+  <!-- ===================== SCENE 1 (0-4s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;0.0167;0.15;0.1667;1"/>
 
     <g class="mono">
-      <text x="84" y="96" font-size="36" class="t1">Eu era invisível.</text>
-      <text x="84" y="128" font-size="16" class="t2">E foi no silêncio que eu me construí.</text>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="cap"/>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="capStroke"/>
+      <text x="96" y="92" font-size="34" class="t1">Eu era invisível.</text>
+      <text x="96" y="124" font-size="16" class="t2">E foi no silêncio que eu me construí.</text>
     </g>
 
-    <!-- chuva (mais fina e “cinematográfica”) -->
-    <g clip-path="url(#clipRain)" opacity=".22">
+    <path d="M80 292 H1120" class="ground"/>
+
+    <g clip-path="url(#clipAll)" mask="url(#rainMask)" opacity=".20">
       <g>
-        <animateTransform attributeName="transform" type="translate" dur="1.05s" repeatCount="indefinite"
-          values="0,-140;0,140"/>
-        <path class="faint" d="M610 40 L570 95"/>
-        <path class="faint" d="M720 20 L680 75"/>
-        <path class="faint" d="M830 50 L790 105"/>
-        <path class="faint" d="M940 30 L900 85"/>
-        <path class="faint" d="M1050 55 L1010 110"/>
+        <animateTransform attributeName="transform" type="translate" dur="0.95s" repeatCount="indefinite" values="0,-120;0,120"/>
+        <path class="faint" d="M680 40 L635 102"/>
+        <path class="faint" d="M800 20 L755 82"/>
+        <path class="faint" d="M920 55 L875 117"/>
+        <path class="faint" d="M1040 30 L995 92"/>
+        <path class="faint" d="M1160 60 L1115 122"/>
 
-        <path class="faint" d="M610 180 L570 235"/>
-        <path class="faint" d="M720 160 L680 215"/>
-        <path class="faint" d="M830 190 L790 245"/>
-        <path class="faint" d="M940 170 L900 225"/>
-        <path class="faint" d="M1050 195 L1010 250"/>
+        <path class="faint" d="M680 180 L635 242"/>
+        <path class="faint" d="M800 160 L755 222"/>
+        <path class="faint" d="M920 195 L875 257"/>
+        <path class="faint" d="M1040 170 L995 232"/>
+        <path class="faint" d="M1160 200 L1115 262"/>
       </g>
-
       <g opacity=".70">
-        <animateTransform attributeName="transform" type="translate" dur="1.45s" repeatCount="indefinite"
-          values="0,-160;0,160"/>
-        <path class="faint" d="M670 10 L630 65"/>
-        <path class="faint" d="M880 12 L840 67"/>
-        <path class="faint" d="M1100 8 L1060 63"/>
-
-        <path class="faint" d="M670 150 L630 205"/>
-        <path class="faint" d="M880 152 L840 207"/>
-        <path class="faint" d="M1100 148 L1060 203"/>
+        <animateTransform attributeName="transform" type="translate" dur="1.35s" repeatCount="indefinite" values="0,-140;0,140"/>
+        <path class="faint" d="M740 10 L695 72"/>
+        <path class="faint" d="M980 12 L935 74"/>
+        <path class="faint" d="M1140 8 L1095 70"/>
+        <path class="faint" d="M740 150 L695 212"/>
+        <path class="faint" d="M980 152 L935 214"/>
+        <path class="faint" d="M1140 148 L1095 210"/>
       </g>
     </g>
 
-    <!-- protagonista (direita, com glow suave) -->
-    <g transform="translate(820 242)" filter="url(#softGlow)">
-      <circle cx="0" cy="-52" r="18" fill="#000" stroke="#f4f4f4" stroke-opacity=".72" stroke-width="5.5" vector-effect="non-scaling-stroke"/>
+    <g transform="translate(800 238)">
+      <circle cx="0" cy="-52" r="18" fill="#0d1117" stroke="#e6edf3" stroke-opacity=".78" stroke-width="6" vector-effect="non-scaling-stroke"/>
       <path class="mid" d="M-14 -34 C-46 -10 -52 24 -30 54"/>
       <path class="mid" d="M-28 54 C-2 66 28 66 52 54"/>
       <path class="mid" d="M52 54 C28 32 16 10 12 -8"/>
-      <path class="thin" d="M-18 10 C-6 24 6 34 22 42" opacity=".9"/>
-      <ellipse cx="10" cy="62" rx="120" ry="14" class="faint" opacity=".55"/>
+      <path class="thin" d="M-18 10 C-6 24 6 34 22 42"/>
+      <path class="thin" d="M-6 6 C10 22 26 30 44 36" opacity=".8"/>
+      <ellipse cx="10" cy="62" rx="120" ry="14" class="faint" opacity=".48"/>
     </g>
   </g>
 
-  <!-- ===================== SCENE 2 (5-10s): estudo ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;0;1;1;0;0" keyTimes="0;0.1667;0.1833;0.3167;0.3333;1"/>
+  <!-- ===================== SCENE 2 (4-8s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.1667;0.1833;0.3167;0.3333;1"/>
 
     <g class="mono">
-      <text x="84" y="96" font-size="36" class="t1">Quando doía…</text>
-      <text x="84" y="128" font-size="16" class="t2">eu estudava até minhas mãos arderem.</text>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="cap"/>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="capStroke"/>
+      <text x="96" y="92" font-size="34" class="t1">Quando doía…</text>
+      <text x="96" y="124" font-size="16" class="t2">eu estudava até minhas mãos arderem.</text>
     </g>
 
-    <g transform="translate(860 190)" filter="url(#softGlow)">
-      <rect x="-260" y="-70" width="250" height="180" rx="22" class="thin" opacity=".72"/>
-      <rect x="10" y="-70" width="250" height="180" rx="22" class="thin" opacity=".72"/>
-      <path class="faint" d="M0 -70 V110" opacity=".72"/>
+    <path d="M80 292 H1120" class="ground"/>
 
-      <path class="faint" d="M-220 -28 H-70" opacity=".75"/>
-      <path class="faint" d="M-220 8 H-90"  opacity=".65"/>
-      <path class="faint" d="M-220 44 H-80" opacity=".55"/>
-
-      <path class="faint" d="M60 -28 H220" opacity=".75"/>
-      <path class="faint" d="M90 8 H220"  opacity=".65"/>
-      <path class="faint" d="M80 44 H220" opacity=".55"/>
-
-      <!-- lápis minimal -->
-      <path class="mid" d="M210 92 L270 32" opacity=".62"/>
-      <path class="thin" d="M265 37 L288 14" opacity=".55"/>
-      <path class="faint" d="M206 96 L224 114" opacity=".45"/>
+    <g transform="translate(860 220)">
+      <rect x="-260" y="-70" width="250" height="180" rx="22" class="thin" opacity=".70"/>
+      <rect x="10" y="-70" width="250" height="180" rx="22" class="thin" opacity=".70"/>
+      <path class="faint" d="M0 -70 V110" opacity=".60"/>
+      <path class="faint" d="M-220 -28 H-60" opacity=".68"/>
+      <path class="faint" d="M-220 6 H-80" opacity=".68"/>
+      <path class="faint" d="M-220 40 H-70" opacity=".68"/>
+      <path class="faint" d="M60 -28 H220" opacity=".68"/>
+      <path class="faint" d="M80 6 H220" opacity=".68"/>
+      <path class="faint" d="M70 40 H220" opacity=".68"/>
+      <path class="mid" d="M210 92 L270 32" opacity=".52"/>
+      <path class="thin" d="M265 37 L284 18" opacity=".52"/>
+      <path class="faint" d="M206 96 L222 112" opacity=".42"/>
     </g>
   </g>
 
-  <!-- ===================== SCENE 3 (10-15s): julgamento ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;0;1;1;0;0" keyTimes="0;0.3333;0.35;0.4833;0.5;1"/>
+  <!-- ===================== SCENE 3 (8-12s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.35;0.4833;0.5;1"/>
 
     <g class="mono">
-      <text x="84" y="96" font-size="36" class="t1">Teve julgamento.</text>
-      <text x="84" y="128" font-size="16" class="t2">Eu não discuti. Eu executei.</text>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="cap"/>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="capStroke"/>
+      <text x="96" y="92" font-size="34" class="t1">Teve julgamento.</text>
+      <text x="96" y="124" font-size="16" class="t2">Eu não discuti. Eu executei.</text>
     </g>
 
-    <g filter="url(#softGlow)">
-      <!-- crowd (no miolo da direita) -->
-      <g transform="translate(660 178)">
-        <circle cx="0" cy="0" r="18" fill="#000" stroke="#f4f4f4" stroke-opacity=".30" stroke-width="5.5" vector-effect="non-scaling-stroke"/>
+    <path d="M80 292 H1120" class="ground"/>
+
+    <g>
+      <g transform="translate(720 270)">
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#e6edf3" stroke-opacity=".30" stroke-width="6" vector-effect="non-scaling-stroke"/>
         <path class="crowd" d="M-30 56 C-12 34 12 34 30 56"/>
-        <g transform="translate(0 -60)">
-          <animateTransform attributeName="transform" type="translate" dur="1.15s" repeatCount="indefinite" values="0,-60;0,-64;0,-60"/>
-          <use href="#bubble"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur="1.15s" repeatCount="indefinite"
+            values="0 -92;0 -96;0 -92"/>
+          <use href="#bubbleSmall"/>
         </g>
+        <path class="faint" d="M-52 18 C-64 6 -64 -8 -52 -20" opacity=".55"/>
       </g>
 
-      <g transform="translate(760 154)">
-        <circle cx="0" cy="0" r="18" fill="#000" stroke="#f4f4f4" stroke-opacity=".30" stroke-width="5.5" vector-effect="non-scaling-stroke"/>
+      <g transform="translate(870 248)">
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#e6edf3" stroke-opacity=".30" stroke-width="6" vector-effect="non-scaling-stroke"/>
         <path class="crowd" d="M-30 56 C-12 34 12 34 30 56"/>
-        <g transform="translate(0 -60)">
-          <animateTransform attributeName="transform" type="translate" dur="1.2s" repeatCount="indefinite" values="0,-60;0,-63;0,-60"/>
-          <use href="#bubble"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur="1.20s" repeatCount="indefinite"
+            values="0 -92;0 -95;0 -92"/>
+          <use href="#bubbleSmall"/>
         </g>
+        <path class="faint" d="M52 18 C64 6 64 -8 52 -20" opacity=".55"/>
       </g>
 
-      <g transform="translate(860 178)">
-        <circle cx="0" cy="0" r="18" fill="#000" stroke="#f4f4f4" stroke-opacity=".30" stroke-width="5.5" vector-effect="non-scaling-stroke"/>
+      <g transform="translate(1020 270)">
+        <circle cx="0" cy="0" r="18" fill="#0d1117" stroke="#e6edf3" stroke-opacity=".30" stroke-width="6" vector-effect="non-scaling-stroke"/>
         <path class="crowd" d="M-30 56 C-12 34 12 34 30 56"/>
-        <g transform="translate(0 -60)">
-          <animateTransform attributeName="transform" type="translate" dur="1.1s" repeatCount="indefinite" values="0,-60;0,-65;0,-60"/>
-          <use href="#bubble"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur="1.10s" repeatCount="indefinite"
+            values="0 -92;0 -97;0 -92"/>
+          <use href="#bubbleSmall"/>
         </g>
-      </g>
-
-      <!-- você (firme, à direita) -->
-      <g transform="translate(1030 164)">
-        <circle cx="0" cy="0" r="18" fill="#000" stroke="#f4f4f4" stroke-opacity=".70" stroke-width="5.5" vector-effect="non-scaling-stroke"/>
-        <path class="mid" d="M-28 78 C-20 40 -6 30 0 30 C10 30 22 44 28 78 C38 120 18 140 0 140 C-18 140 -38 120 -28 78 Z"/>
-        <path class="faint" d="M-18 52 C-2 62 2 62 18 52"/>
+        <path class="faint" d="M-52 18 C-64 6 -64 -8 -52 -20" opacity=".45"/>
       </g>
     </g>
   </g>
 
-  <!-- ===================== SCENE 4 (15-20s): consistência ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;0;1;1;0;0" keyTimes="0;0.5;0.5167;0.65;0.6667;1"/>
+  <!-- ===================== SCENE 4 (12-16s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.5;0.5167;0.65;0.6667;1"/>
 
     <g class="mono">
-      <text x="84" y="96" font-size="36" class="t1">O segredo foi simples.</text>
-      <text x="84" y="128" font-size="16" class="t2">Repetição. Todo dia. Sem desculpa.</text>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="cap"/>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="capStroke"/>
+      <text x="96" y="90" font-size="34" class="t1">O segredo foi simples.</text>
+      <text x="96" y="124" font-size="16" class="t2">Repetição. Todo dia. Sem desculpa.</text>
     </g>
 
-    <g transform="translate(880 114)" filter="url(#softGlow)">
-      <rect x="-220" y="20" width="440" height="220" rx="26" class="thin" opacity=".72"/>
-      <path class="faint" d="M-170 78 H170"/>
-      <path class="faint" d="M-170 128 H170"/>
-      <path class="faint" d="M-170 178 H170"/>
+    <path d="M80 292 H1120" class="ground"/>
 
-      <rect x="-190" y="64" width="28" height="28" rx="8" class="faint" opacity=".85"/>
-      <rect x="-190" y="114" width="28" height="28" rx="8" class="faint" opacity=".85"/>
-      <rect x="-190" y="164" width="28" height="28" rx="8" class="faint" opacity=".85"/>
+    <!-- moved down to avoid touching text card -->
+    <g transform="translate(740 148)">
+      <rect x="-220" y="20" width="440" height="220" rx="26" class="thin" opacity=".70"/>
+      <path class="faint" d="M-170 76 H170"/>
+      <path class="faint" d="M-170 126 H170"/>
+      <path class="faint" d="M-170 176 H170"/>
 
-      <g transform="translate(-184 66)">
+      <rect x="-190" y="62" width="28" height="28" rx="8" class="faint" opacity=".85"/>
+      <rect x="-190" y="112" width="28" height="28" rx="8" class="faint" opacity=".85"/>
+      <rect x="-190" y="162" width="28" height="28" rx="8" class="faint" opacity=".85"/>
+
+      <g transform="translate(-184 64)">
         <use href="#checkPath" stroke-dasharray="60" stroke-dashoffset="60">
-          <animate attributeName="stroke-dashoffset" dur="0.6s" repeatCount="indefinite" values="60;0;0" keyTimes="0;0.35;1"/>
+          <animate attributeName="stroke-dashoffset" dur="0.55s" repeatCount="indefinite" values="60;0;0" keyTimes="0;0.35;1"/>
         </use>
       </g>
-      <g transform="translate(-184 116)">
+      <g transform="translate(-184 114)">
         <use href="#checkPath" stroke-dasharray="60" stroke-dashoffset="60">
-          <animate attributeName="stroke-dashoffset" dur="0.6s" repeatCount="indefinite" values="60;60;0;0" keyTimes="0;0.25;0.60;1"/>
+          <animate attributeName="stroke-dashoffset" dur="0.55s" repeatCount="indefinite" values="60;60;0;0" keyTimes="0;0.25;0.60;1"/>
         </use>
       </g>
-      <g transform="translate(-184 166)">
+      <g transform="translate(-184 164)">
         <use href="#checkPath" stroke-dasharray="60" stroke-dashoffset="60">
-          <animate attributeName="stroke-dashoffset" dur="0.6s" repeatCount="indefinite" values="60;60;60;0;0" keyTimes="0;0.25;0.50;0.85;1"/>
+          <animate attributeName="stroke-dashoffset" dur="0.55s" repeatCount="indefinite" values="60;60;60;0;0" keyTimes="0;0.25;0.50;0.85;1"/>
         </use>
       </g>
 
-      <g transform="translate(0 14)" opacity=".52">
-        <circle cx="150" cy="0" r="7" class="dot"/>
-        <circle cx="176" cy="0" r="7" class="dot"/>
-        <circle cx="202" cy="0" r="7" class="dot"/>
-        <circle cx="228" cy="0" r="7" class="dot"/>
+      <g transform="translate(0 14)" opacity=".50">
+        <circle cx="150" cy="0" r="8" class="dot"/>
+        <circle cx="176" cy="0" r="8" class="dot"/>
+        <circle cx="202" cy="0" r="8" class="dot"/>
+        <circle cx="228" cy="0" r="8" class="dot"/>
       </g>
     </g>
   </g>
 
-  <!-- ===================== SCENE 5 (20-25s): FIAP ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;0;1;1;0;0" keyTimes="0;0.6667;0.6833;0.8167;0.8333;1"/>
+  <!-- ===================== SCENE 5 (16-20s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.6667;0.6833;0.8167;0.8333;1"/>
 
     <g class="mono">
-      <text x="84" y="96" font-size="36" class="t1">FIAP: eu entrei.</text>
-      <text x="84" y="128" font-size="16" class="t2">Um marco do processo — não o objetivo.</text>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="cap"/>
+      <rect x="64" y="48" width="560" height="98" rx="18" class="capStroke"/>
+      <text x="96" y="92" font-size="34" class="t1">FIAP: eu entrei.</text>
+      <text x="96" y="124" font-size="16" class="t2">Um marco do processo — não o objetivo.</text>
     </g>
 
-    <g filter="url(#softGlow)">
-      <g transform="translate(900 196)">
-        <animateTransform attributeName="transform" type="scale" dur="1.15s" repeatCount="indefinite" values="1;1.03;1"/>
-        <circle cx="0" cy="0" r="96" class="thin" opacity=".72"/>
-        <circle cx="0" cy="0" r="64" class="faint" opacity=".62"/>
+    <path d="M80 292 H1120" class="ground"/>
+
+    <g transform="translate(840 196)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" dur="1.05s" repeatCount="indefinite" values="1;1.03;1"/>
+        <circle cx="0" cy="0" r="96" class="thin" opacity=".70"/>
+        <circle cx="0" cy="0" r="64" class="faint" opacity=".60"/>
         <path class="mid" d="M-24 8 L-4 28 L34 -14"/>
         <g class="mono">
           <text x="0" y="-12" font-size="34" class="t1" text-anchor="middle" letter-spacing="6">FIAP</text>
           <text x="0" y="58" font-size="14" class="t2" text-anchor="middle">ENTREI</text>
         </g>
       </g>
+    </g>
 
-      <!-- trilha -->
-      <g transform="translate(620 244)" opacity=".9">
-        <path class="faint" d="M0 0 H340" opacity=".55"/>
-        <circle cx="0" cy="0" r="5" class="ink" opacity=".14"/>
-        <circle cx="170" cy="0" r="5" class="ink" opacity=".14"/>
-        <circle cx="340" cy="0" r="5" class="ink" opacity=".14"/>
-        <path class="faint" d="M340 0 L376 -18" opacity=".55"/>
-      </g>
+    <g transform="translate(320 240)">
+      <path class="faint" d="M0 0 H320" opacity=".45"/>
+      <circle cx="0" cy="0" r="5" fill="#e6edf3" opacity=".14"/>
+      <circle cx="160" cy="0" r="5" fill="#e6edf3" opacity=".14"/>
+      <circle cx="320" cy="0" r="5" fill="#e6edf3" opacity=".14"/>
+      <path class="faint" d="M320 0 L350 -18" opacity=".45"/>
     </g>
   </g>
 
-  <!-- ===================== SCENE 6 (25-30s): final ===================== -->
-  <g opacity="0">
-    <animate attributeName="opacity" dur="30s" repeatCount="indefinite"
-      values="0;0;1;1" keyTimes="0;0.8333;0.85;1"/>
+  <!-- ===================== SCENE 6 (20-24s) ===================== -->
+  <g opacity="0" clip-path="url(#clipAll)">
+    <animate attributeName="opacity" dur="24s" repeatCount="indefinite" values="0;0;1;1" keyTimes="0;0.8333;0.85;1"/>
 
     <g class="mono">
-      <text x="84" y="188" font-size="40" class="t1">Precisa de alguém que entrega?</text>
-      <text x="84" y="232" font-size="18" class="t2">Me dá um desafio real. Eu devolvo execução.</text>
+      <rect x="64" y="140" width="820" height="108" rx="18" class="cap"/>
+      <rect x="64" y="140" width="820" height="108" rx="18" class="capStroke"/>
+      <text x="96" y="186" font-size="40" class="t1">Eu estudei até minhas mãos arderem.</text>
+      <text x="96" y="224" font-size="18" class="t2">Se você quer alguém que aguenta pressão e entrega, me chama.</text>
     </g>
 
-    <g transform="translate(840 232)" filter="url(#softGlow)">
-      <path class="faint" d="M0 60 H260" opacity=".55"/>
-      <path class="thin" d="M0 60 V28 H80 V-2 H160 V-34 H260" opacity=".80"/>
-      <circle cx="260" cy="-34" r="5" class="ink" opacity=".18"/>
-      <circle cx="80" cy="28" r="4.2" class="ink" opacity=".12"/>
-      <circle cx="160" cy="-2" r="4.2" class="ink" opacity=".12"/>
+    <g transform="translate(930 232)">
+      <path class="faint" d="M0 60 H190" opacity=".55"/>
+      <path class="thin" d="M0 60 V28 H60 V-4 H120 V-36 H190" opacity=".80"/>
+      <circle cx="190" cy="-36" r="5" fill="#e6edf3" opacity=".16"/>
     </g>
   </g>
 </svg>
