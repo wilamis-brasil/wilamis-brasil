@@ -1,6 +1,6 @@
 <img src="./assets/banner.svg" width="100%" alt="Banner tech" />
 
-# Hello World 👋 Eu sou o Wilamis
+Hello World 👋 Eu sou o Wilamis
 
 Estudante de **ADS na FIAP** e **Desenvolvedor de Software Júnior**, com foco em **Front-end (JavaScript / HTML / CSS)**.  
 Busco **estágio** para atuar construindo interfaces **limpas, responsivas e previsíveis**, com código simples de manter.
