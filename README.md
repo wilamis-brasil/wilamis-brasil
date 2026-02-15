@@ -1,6 +1,6 @@
-Hello World 👋 Eu sou o Wilamis
+Hello World 👋
 
-Estudante de **ADS na FIAP** e **Desenvolvedor de Software Júnior**, com foco em **Front-end (JavaScript / HTML / CSS)**.  
+Sou estudante de **ADS na FIAP** e **Desenvolvedor de Software Júnior**, com foco em **Front-end (JavaScript / HTML / CSS)**.  
 Busco **estágio** para atuar construindo interfaces **limpas, responsivas e previsíveis**, com código simples de manter.
 
 ## O que eu entrego (na prática)
