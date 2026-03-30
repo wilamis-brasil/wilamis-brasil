@@ -22,17 +22,17 @@
       <picture>
         <source
           media="(prefers-color-scheme: dark)"
-          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wilamis-brasil&layout=donut&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&border_radius=14"
+          srcset="https://github-readme-stats.vercel.app/api/top-langs?username=wilamis-brasil&layout=compact&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&border_radius=14"
         />
         <source
           media="(prefers-color-scheme: light)"
-          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wilamis-brasil&layout=donut&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=0969da&text_color=1f2328&border_radius=14"
+          srcset="https://github-readme-stats.vercel.app/api/top-langs?username=wilamis-brasil&layout=compact&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=0969da&text_color=1f2328&border_radius=14"
         />
         <img
           width="100%"
           height="195"
           alt="Top languages"
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=wilamis-brasil&layout=donut&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=0969da&text_color=1f2328&border_radius=14"
+          src="https://github-readme-stats.vercel.app/api/top-langs?username=wilamis-brasil&layout=compact&hide_title=true&hide_border=true&langs_count=8&bg_color=00000000&title_color=0969da&text_color=1f2328&border_radius=14"
         />
       </picture>
     </td>
