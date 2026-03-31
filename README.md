@@ -1,8 +1,4 @@
-<h1 align="center">👨‍💻 Wil</h1>
-
-<p align="center">
-  <strong>Estudante de programação</strong>
-</p>
+<h1 align="center">👨‍💻 Estudante de programação</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=E34F26" />
