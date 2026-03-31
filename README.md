@@ -14,18 +14,3 @@
   <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" />
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
 </p>
-
----
-
-## 🙋‍♂️ Sobre mim
-
-```ts
-const wil = {
-  perfil: "Estudante de programação",
-  foco: [
-    "Aprender na prática",
-    "Construir projetos funcionais",
-    "Organização de código",
-    "Construção de portfólio"
-  ]
-}
