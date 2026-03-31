@@ -1,36 +1,35 @@
+<h1 align="center">👨‍💻 Wil</h1>
 
+<p align="center">
+  <strong>Estudante de programação</strong>
+</p>
 
-## Sobre mim
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-111827?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img src="https://img.shields.io/badge/CSS-111827?style=for-the-badge&logo=css3&logoColor=1572B6" />
+  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" />
+</p>
 
-Sou ume estudante de programação, focado em aprender na prática e construir projetos funcionais. Estou evoluindo em desenvolvimento de software com foco em prática, organização de código e construção de portfólio.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=node.js&logoColor=339933" />
+  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
+</p>
 
-## Tecnologias
+---
 
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- Python
-- React
-- Node.js
-- Git
-- GitHub
+## 🙋‍♂️ Sobre mim
 
-## Atualmente
-
-- Estudando desenvolvimento web
-- Criando projetos para portfólio
-- Melhorando lógica de programação
-- Evoluindo em front-end e back-end
-
-## Objetivos
-
-- Construir projetos reais
-- Escrever código mais limpo e organizado
-- Aprender arquitetura de software
-- Evoluir como desenvolvedor profissional
-
-## Projetos em destaque
-
-### Em breve
-Novos projetos serão adicionados aqui conforme eu for evoluindo.
+```ts
+const wil = {
+  perfil: "Estudante de programação",
+  foco: [
+    "Aprender na prática",
+    "Construir projetos funcionais",
+    "Organização de código",
+    "Construção de portfólio"
+  ]
+}
