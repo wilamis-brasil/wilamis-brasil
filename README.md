@@ -1,79 +1,36 @@
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <picture>
-        <source
-          media="(prefers-color-scheme: dark)"
-          srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wilamis-brasil&theme=github_dark"
-        />
-        <source
-          media="(prefers-color-scheme: light)"
-          srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wilamis-brasil&theme=github"
-        />
-        <img
-          width="100%"
-          alt="GitHub stats"
-          src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wilamis-brasil&theme=github"
-        />
-      </picture>
-    </td>
+Estudante de programação, focado em aprender na prática e construir projetos funcionais.
 
-    <td width="50%" valign="top">
-      <picture>
-        <source
-          media="(prefers-color-scheme: dark)"
-          srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wilamis-brasil&theme=github_dark"
-        />
-        <source
-          media="(prefers-color-scheme: light)"
-          srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wilamis-brasil&theme=github"
-        />
-        <img
-          width="100%"
-          alt="Top languages"
-          src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wilamis-brasil&theme=github"
-        />
-      </picture>
-    </td>
-  </tr>
+## Sobre mim
 
-  <tr>
-    <td colspan="2">
-      <picture>
-        <source
-          media="(prefers-color-scheme: dark)"
-          srcset="https://streak-stats.demolab.com?user=wilamis-brasil&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakNum=58a6ff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&border_radius=14"
-        />
-        <source
-          media="(prefers-color-scheme: light)"
-          srcset="https://streak-stats.demolab.com?user=wilamis-brasil&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakNum=0969da&sideNums=0969da&currStreakLabel=0969da&sideLabels=57606a&dates=57606a&border_radius=14"
-        />
-        <img
-          width="100%"
-          alt="GitHub streak"
-          src="https://streak-stats.demolab.com?user=wilamis-brasil&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakNum=0969da&sideNums=0969da&currStreakLabel=0969da&sideLabels=57606a&dates=57606a&border_radius=14"
-        />
-      </picture>
-    </td>
-  </tr>
+Estou evoluindo em desenvolvimento de software com foco em prática, organização de código e construção de portfólio.
 
-  <tr>
-    <td colspan="2">
-      <picture>
-        <source
-          media="(prefers-color-scheme: dark)"
-          srcset="https://github-readme-activity-graph.vercel.app/graph?username=wilamis-brasil&bg_color=00000000&color=8b949e&line=58a6ff&point=58a6ff&area=true&area_color=0b3d91&hide_border=true&hide_title=true&radius=14"
-        />
-        <source
-          media="(prefers-color-scheme: light)"
-          srcset="https://github-readme-activity-graph.vercel.app/graph?username=wilamis-brasil&bg_color=00000000&color=57606a&line=0969da&point=0969da&area=true&area_color=54aeff&hide_border=true&hide_title=true&radius=14"
-        />
-        <img
-          width="100%"
-          alt="Contribution graph"
-          src="https://github-readme-activity-graph.vercel.app/graph?username=wilamis-brasil&bg_color=00000000&color=57606a&line=0969da&point=0969da&area=true&area_color=54aeff&hide_border=true&hide_title=true&radius=14"
-        />
-      </picture>
-    </td>
-  </tr>
-</table>
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Python
+- React
+- Node.js
+- Git
+- GitHub
+
+## Atualmente
+
+- Estudando desenvolvimento web
+- Criando projetos para portfólio
+- Melhorando lógica de programação
+- Evoluindo em front-end e back-end
+
+## Objetivos
+
+- Construir projetos reais
+- Escrever código mais limpo e organizado
+- Aprender arquitetura de software
+- Evoluir como desenvolvedor profissional
+
+## Projetos em destaque
+
+### Em breve
+Novos projetos serão adicionados aqui conforme eu for evoluindo.
