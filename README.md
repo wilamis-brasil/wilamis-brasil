@@ -1,8 +1,8 @@
-Estudante de programação, focado em aprender na prática e construir projetos funcionais.
+
 
 ## Sobre mim
 
-Estou evoluindo em desenvolvimento de software com foco em prática, organização de código e construção de portfólio.
+Sou ume estudante de programação, focado em aprender na prática e construir projetos funcionais. Estou evoluindo em desenvolvimento de software com foco em prática, organização de código e construção de portfólio.
 
 ## Tecnologias
 
