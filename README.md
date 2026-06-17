@@ -16,4 +16,4 @@
 </p>
 
 
-> Eu sei a Stack parece estranha mas eu já tenho experiência antes da faculdade.
+> <span align="center">Eu sei a Stack parece estranha mas eu já tenho experiência antes da faculdade.</span>
