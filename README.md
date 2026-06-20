@@ -12,7 +12,7 @@
 
 ---
 
-Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end e curso Análise e Desenvolvimento de Sistemas na FIAP.
+Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end na SeducSP e curso Análise e Desenvolvimento de Sistemas na FIAP.
 
 Gosto de agregar valor, construir softwares que resolvam problemas do mundo real e ajude pessoas.
 
