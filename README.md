@@ -14,6 +14,7 @@ Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da fa
 
 Gosto de agregar valor, construir softwares que resolvam problemas do mundo real e ajude pessoas.
 </p>
+
 ### Stack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat&logo=javascript)
