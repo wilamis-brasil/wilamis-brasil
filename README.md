@@ -12,25 +12,9 @@
 
 ---
 
-Programo há cerca de cinco anos — comecei sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end e curso Análise e Desenvolvimento de Sistemas na FIAP.
+Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end e curso Análise e Desenvolvimento de Sistemas na FIAP.
 
-O que me move é construir software que aguenta o mundo real: que não corrompe os dados quando o processo cai, reconecta sozinho quando a rede oscila e volta exatamente de onde parou depois de um restart. Demo bonita qualquer um faz — eu me preocupo com o que acontece depois.
-
-### O que eu trago
-
-- **Decisão de engenharia, não só código que roda.** Sei *por que* escolhi cada padrão e consigo defender em revisão.
-- **Front-end com base sólida** — JavaScript, TypeScript e React, com CSS levado a sério (design tokens, arquitetura, acessibilidade).
-- **Back-end o suficiente pra ser autônomo** — Node.js, APIs REST, persistência e Python.
-- **Respondo por cada linha.** Uso IA pra ir mais rápido, mas valido, refatoro e entendo tudo que entrego.
-
-### Projetos
-
-**[relotron](https://github.com/wilamis-brasil/relotron)** — Bot de rotinas acadêmicas no WhatsApp.
-Arquitetura hexagonal, escrita atômica em disco, scheduler *restart-safe* e reconexão com backoff exponencial. 114 testes, TypeScript estrito, lint limpo. É a melhor amostra de como eu penso engenharia.
-
-**[sistema-rotina-escolar-proati](https://github.com/wilamis-brasil/sistema-rotina-escolar-proati)** — Sistema para estagiários PROATI organizarem dispositivos, professores, salas, horários e alertas da rotina escolar.
-
-**[guia-beneficios-fiap](https://github.com/wilamis-brasil/guia-beneficios-fiap)** — Guia prático de benefícios e ferramentas gratuitas para calouros de programação na FIAP. ⭐ 18 — a comunidade achou útil.
+Gosto de agregar valor, construir softwares que resolvam problemas do mundo real e ajude pessoas.
 
 ### Stack
 
