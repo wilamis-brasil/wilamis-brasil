@@ -1,7 +1,7 @@
 <h1 align="center">Wilamis Brasil</h1>
 
 <p align="center">
-  Desenvolvedor front-end · autodidata desde os 13 · ADS na FIAP
+  Desenvolvedor front-end · Cursando ADS na FIAP
 </p>
 
 <p align="center">
