@@ -9,11 +9,11 @@
   <a href="mailto:wilamisbrasil.preludio1@gmail.com">wilamisbrasil.preludio1@gmail.com</a> ·
   São Paulo, Brasil
 </p>
-
+<p>
 Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end na SeducSP e curso ADS na FIAP.
 
 Gosto de agregar valor, construir softwares que resolvam problemas do mundo real e ajude pessoas.
-
+</p>
 ### Stack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat&logo=javascript)
