@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/o-wilamis-brasil/">LinkedIn</a> ·
-  <a href="mailto:wilamisbrasil.preludio1@gmail.com">E-mail</a> ·
+  <a href="mailto:wilamisbrasil.preludio1@gmail.com">wilamisbrasil.preludio1@gmail.com</a> ·
   São Paulo, Brasil
 </p>
 
