@@ -10,8 +10,6 @@
   São Paulo, Brasil
 </p>
 
----
-
 Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end na SeducSP e curso ADS na FIAP.
 
 Gosto de agregar valor, construir softwares que resolvam problemas do mundo real e ajude pessoas.
