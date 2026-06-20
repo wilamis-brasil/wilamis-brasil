@@ -33,7 +33,7 @@ Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da fa
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=9F9F9F&icon_color=FFFFFF" alt="Estatísticas do GitHub">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=9F9F9F" alt="Linguagens mais usadas">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=wilamis-brasil&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=9F9F9F&icon_color=FFFFFF" alt="Estatísticas do GitHub">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wilamis-brasil&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=9F9F9F" alt="Linguagens mais usadas">
 
 </div>
