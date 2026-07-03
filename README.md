@@ -31,18 +31,15 @@ Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da fa
 
 ### GitHub
 
-<div align="center">
-
 <p align="center">
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api?username=wilamis-brasil&show_icons=true&hide_border=true&theme=github_dark&cache_seconds=86400"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wilamis-brasil&theme=github_dark"
     alt="Estatísticas do GitHub"
   />
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=wilamis-brasil&layout=compact&hide_border=true&theme=github_dark&cache_seconds=86400"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wilamis-brasil&theme=github_dark"
     alt="Linguagens mais usadas"
   />
 </p>
-</div>
