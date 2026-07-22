@@ -28,18 +28,3 @@ Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da fa
 ![React](https://img.shields.io/badge/React-0D1117?style=flat&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat&logo=node.js&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=flat&logo=git&logoColor=white)
-
-### GitHub
-
-<p align="center">
-  <img
-    height="165"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=wilamis-brasil&theme=github_dark"
-    alt="Estatísticas do GitHub"
-  />
-  <img
-    height="165"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wilamis-brasil&theme=github_dark"
-    alt="Linguagens mais usadas"
-  />
-</p>
