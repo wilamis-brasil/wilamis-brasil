@@ -16,7 +16,7 @@
 
 </div>
 
-Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje sou estagiário de front-end na SeducSP e curso ADS na FIAP. Gosto de agregar valor, construir software que resolva problemas do mundo real e ajude pessoas.
+Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje aos 18 sou estagiário de front-end na SeducSP e curso ADS na FIAP. Gosto de agregar valor, construir software que resolva problemas do mundo real e ajude pessoas.
 
 ### Stack
 
