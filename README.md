@@ -17,14 +17,3 @@
 </div>
 
 Sou apaixonado por tecnologia, comecei a estudar sozinho aos 13, bem antes da faculdade. Hoje aos 18 sou estagiário de front-end na SeducSP e curso ADS na FIAP. Gosto de agregar valor, construir software que resolva problemas do mundo real e ajude pessoas.
-
-### Stack
-
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=flat&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-0D1117?style=flat&logo=react&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/Git-0D1117?style=flat&logo=git&logoColor=white)
